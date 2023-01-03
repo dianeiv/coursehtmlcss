@@ -1,0 +1,57 @@
+h1{
+    color:blue;
+}
+h2{
+    color: yellow;
+}
+/* style title */
+p{
+  color:gold; 
+}
+.green-text{
+   color: green; 
+}
+.bold{
+  font-weight: bold;  
+}
+.green-text.bold{
+    text-decoration: underline;
+}
+#main{
+color: lightblue;
+}
+.color{
+    color:rgb(240, 240, 56);
+}
+h3,h4{
+    color:bisque;
+}
+p span{
+   color:red; 
+}
+p>span{
+    color:black
+}
+span+span{
+    color: rgb(239, 23, 120);
+}
+a[href="hello_world.html"]{
+    color:rgb(239, 23, 120)
+}
+ul li:first-child{
+    font-size: 40px;
+}
+ul li:nth-child(3){
+   font-size: 50px; 
+}
+div p:last-child{
+   font-size: 30px; 
+}
+.size{
+   width: 300px;
+   padding: 20px;
+   margin-bottom: 100px;
+   /*margin: 50px 100px;*/
+   margin: 50px auto;
+   border: 3px solid black;
+}

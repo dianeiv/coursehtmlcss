@@ -1,0 +1,18 @@
+h1{
+    color: rgb(92, 14, 110);
+    font-size: 35px;
+}
+.size{
+    width: 300px;
+    margin: 50px auto;
+    border:3px solid rgb(92, 14, 110);
+    padding: 20px;
+}
+p{
+    color: rgb(101, 59, 141);
+    font-size: 20px;
+}
+a{
+    color: brown;
+    font-size: 15px;
+}
