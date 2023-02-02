@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+h1{
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 56px;
+}
+h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+}
+h3{
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 32px;
+}
+h4{
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.wide-wrapper{
+    width: 1487px;
+    margin: 0 auto;
+}
+.wrapper{
+    width: 1269px;
+    margin: 0 auto;
+}
+header{
+    padding: 22px 0;
+}
+.left{
+float: left;
+}
+.right{
+    float: right;
+}
+.logo-block,
+nav{
+    width: 740px;
+}
+.logo{
+    font-size: 27px;
+    font-weight: 600;
+    width: 183px;
+    font-style: normal;
+}
+nav{
+    text-align: right;
+    vertical-align: top;
+}
+ul{
+    margin-left: 80px;
+}
+.nav-link{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    /* or 25px */
+    color: #000000;
+    text-decoration: none;
+    margin-right: 24px;
+}
+nav li{
+    margin-right: 24px;
+}
+nav button{
+    padding: 10px 16px;
+    background-color: #fff;
+    border: 1px solid #2203E4;
+    text-align: center;
+    color: #2203E4;
+    font-size: 21px;
+}
+.main-btn{
+    padding: 10px 16px;
+    text-align: center;
+    background: #0062FF;
+    border: 1px solid #0062FF;
+    color: #fff;
+    font-size: 16px;
+}
+.secondary-btn{
+    padding: 10px 16px;
+    text-align: center;
+    background: #ffffff;
+    border: 1px solid rgba(87, 87, 87, 1);
+    color: rgba(87, 87, 87, 1);
+    font-size: 16px;
+}
+.phone-block{
+    margin-top: 118px;
+}
+.phone-text{
+    width: 538px;
+    margin-left: 80px;
+    margin-top: 147px;
+}
+.phone-img-block{
+    width: 450px;
+    margin-right: 90px;
+}
+.info-btn-block .main-btn{
+    margin-right: 24px;
+}
+.phone-text p{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+.authors-block{
+margin-top: 118px;
+}
+.authors-title{
+    text-align: center;
+    width: 611px;
+    margin: 0 auto;
+}
+.authors-title p 
+{
+    margin-top: 12px;
+}
+.authors-content{
+    margin-top: 36px;
+}
+.authors-content-about{
+    width: 645px;
+    margin-left: 34px;
+}
+.authors-content-team{
+    width: 237px;
+    margin-top: 20px;
+}
+.authors-content-team-txt{
+    margin-left: 15px;
+}
+.authors-content-team-img-vector{
+margin-top: 56px;
+}
+.authors-content-about p {
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+.gold{
+    color: goldenrod;
+}
